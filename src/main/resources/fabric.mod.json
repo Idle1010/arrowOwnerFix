@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "arrowownerfix",
+	"version": "${version}",
+	"name": "Arrow Owner Fix",
+	"description": "A fix for arrows losing their owner when updated while Owner is not online. Only needed in Minecraft >= 1.21.6",
+	"authors": [
+		"Idle1010"
+	],
+	"contact": {
+		"sources": "https://github.com/Idle1010/arrowOwnerFix"
+	},
+	"license": "GPL-3.0",
+	"environment": "*",
+	"mixins": [
+		"arrowOwnerFix.mixins.json"
+	],
+	"accessWidener" : "arrowOwnerFix.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21"
+	}
+}

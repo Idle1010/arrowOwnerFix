@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.idle1010.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ProjectileEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
